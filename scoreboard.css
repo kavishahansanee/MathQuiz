@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.score-title {
+    color: #dfaee6;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.score-table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.score-table th, .score-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.score-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+video {
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+}
+
+button{
+display: block;
+font-size: 20px;
+text-align: center;
+padding: 15px 25px;
+background-color: rgb(73, 222, 255);
+color:black;
+text-decoration: none;
+border-radius: 5px;
+margin-left: 45.5%;
+}
+
+button:hover {
+background-color: rgb(94, 102, 255);
+}

@@ -1,0 +1,48 @@
+body {
+    background: url(images/firstimage.png);
+    margin: 20vh auto;
+    text-align: center;
+    
+}
+
+h1 {
+    color: rgba(253, 253, 253, 0.899);
+    font-size: 85px;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #131111;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+#cis-module {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #f8f1f1;
+    margin-top: 40px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px; 
+    height: 50px;
+    background-color: rgb(236, 38, 134);
+    color: rgb(19, 19, 19);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+input[type="submit"]:hover {
+    background-color: #346b9e;
+}

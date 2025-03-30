@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/MemoryGameBackGround.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(24, 230, 100);
+    margin-top:  auto;
+   
+}
+
+.header p {
+    margin: 0;
+    margin-left: auto;
+}
+
+.game-title {
+    color: rgb(254, 254, 255);
+    font-size: 30px;
+    margin-bottom:2px;
+    margin-right: auto;
+    margin-top:  auto;
+}
+
+.button-62 {
+    background: linear-gradient(to bottom right, rgb(2, 221, 255), #d001ff);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 525;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-top: 1%;
+}
+
+.game-Time {
+    line-height: 2.5;
+    color: rgb(255, 255, 5);
+    margin-top: -1.5%;
+  
+}
+
+.game-level {
+    line-height: 2.5;
+    color: rgb(255, 255, 5);
+    margin-top: -0.5%;
+  
+}
+
+.game-h2{
+    line-height: 2.5;
+    color: rgb(255, 255, 5);
+    margin-top: -1%;
+}
+
+#note {
+    margin-top: 0px; 
+    background-color: rgb(53, 28, 141);
+    color:rgb(255, 255, 255);
+    padding: 2px;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;    
+
+}
+
+#timer {
+    margin: 10px ; 
+}
+
+#quest{
+    margin-top: -1.8%;
+}
+
+#numberButtons{
+    margin-top: 0%;
+}
+
+.button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(228, 214, 8, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem  rgba(228, 214, 8, 0.5);
+}
+
+.number-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.number-buttons-container button {
+    margin: 0 5px;
+}
